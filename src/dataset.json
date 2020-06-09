@@ -1,0 +1,172 @@
+{
+    "init": {
+        "answers": [
+            {
+                "content": "仕事を依頼したい",
+                "nextId": "job_offer"
+            },
+            {
+                "content": "活動が見たい",
+                "nextId": "consultant"
+            },
+            {
+                "content": "一度話がしてみたい",
+                "nextId": "community"
+            },
+            {
+                "content": "お付き合いしたい",
+                "nextId": "dating"
+            }
+        ],
+        "question": "こんにちは！アクセスしていただきありがとうございます。ともやへのご用件はなんでしょうか？"
+    },
+    "job_offer": {
+        "answers": [
+            {
+                "content": "Webサイトを制作してほしい",
+                "nextId": "website"
+            },
+            {
+                "content": "Webアプリを開発してほしい",
+                "nextId": "webapp"
+            },
+            {
+                "content": "美味しいラーメン屋を教えてほしい",
+                "nextId": "automation_tool"
+            },
+            {
+                "content": "その他",
+                "nextId": "other_jobs"
+            }
+        ],
+        "question": "どのようなお仕事でしょうか？"
+    },
+    "website": {
+        "answers": [
+            {
+                "content": "問い合わせる",
+                "nextId": "contact"
+            },
+            {
+                "content": "最初の質問に戻る",
+                "nextId": "init"
+            }
+        ],
+        "question": "Webサイト細作についてですね。コチラからお問い合わせできます。"
+    },
+    "webapp": {
+        "answers": [
+            {
+                "content": "問い合わせる",
+                "nextId": "contact"
+            },
+            {
+                "content": "最初の質問に戻る",
+                "nextId": "init"
+            }
+        ],
+        "question": "Webアプリ開発についてですね。コチラからお問い合わせできます。"
+    },
+    "automation_tool": {
+        "answers": [
+            {
+                "content": "おすすめを見てみる",
+                "nextId": "https://tabelog.com/tokyo/A1303/A130301/13003367/"
+            },
+            {
+                "content": "最初の質問に戻る",
+                "nextId": "init"
+            }
+        ],
+        "question": "美味しいラーメンですか。それならとびきりのがありますヨ。"
+    },
+    "other_jobs": {
+        "answers": [
+            {
+                "content": "問い合わせる",
+                "nextId": "contact"
+            },
+            {
+                "content": "最初の質問に戻る",
+                "nextId": "init"
+            }
+        ],
+        "question": "その他についてですね。コチラからお問い合わせできます。"
+    },
+    "consultant": {
+        "answers": [
+            {
+                "content": "Twitterを見る",
+                "nextId": "https://twitter.com/progtomoya_"
+            },
+            {
+                "content": "GitHubを見る",
+                "nextId": "https://github.com/oritomo"
+            },
+            {
+                "content": "Wantedlyを見る",
+                "nextId": "https://www.wantedly.com/users/135343730"
+            },
+            {
+                "content": "最初の質問に戻る",
+                "nextId": "init"
+            }
+        ],
+        "question": "TwitterとGitHubに記録が載っています。詳しく聞きたいことがありましたらTwitterもしくはWantedlyにメッセージを送っていただければすぐに返信させていただきます！"
+    },
+    "community": {
+        "answers": [
+            {
+                "content": "もっと詳しく何をしているのか知りたい",
+                "nextId": "community_activity"
+            },
+            {
+                "content": "Twitterを見る",
+                "nextId": "https://twitter.com/progtomoya_"
+            },
+            {
+                "content": "Wantedlyを見る",
+                "nextId": "https://www.wantedly.com/users/135343730"
+            },
+            {
+                "content": "最初の質問に戻る",
+                "nextId": "init"
+            }
+        ],
+        "question": "都内の大学に通いながらフロントエンジニアになるべくJavaScriptとReactの勉強をしています。Twitterでは情報収集と勉強会参加の活動をしています。Wantedlyでは就活をしています。"
+    },
+    "community_activity": {
+        "answers": [
+            {
+                "content": "TwitterにDMを送る",
+                "nextId": "https://twitter.com/progtomoya_"
+            },
+            {
+                "content": "Wantedlyを見る",
+                "nextId": "https://www.wantedly.com/users/135343730"
+            },
+            {
+                "content": "問い合わせる",
+                "nextId": "contact"
+            },
+            {
+                "content": "最初の質問に戻る",
+                "nextId": "init"
+            }
+        ],
+        "question": "興味を持っていただきありがとうございます！TwitterもしくはWantedlyの返信が最も早いのでご連絡いただければと思います。よろしくお願いいたします！"
+    },
+    "dating": {
+        "answers": [
+            {
+                "content": "TwitterにDMを送る",
+                "nextId": "https://twitter.com/torahack_"
+            },
+            {
+                "content": "最初の質問に戻る",
+                "nextId": "init"
+            }
+        ],
+        "question": "まずは一緒にランチでもいかがですか？DMしてください😘"
+    }
+}
